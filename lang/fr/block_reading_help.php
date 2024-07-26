@@ -21,13 +21,13 @@
  * @copyright   2024 Philippe CHATAIGNER
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'Reading Help';
-$string['assistance'] = 'Reading Help';
+$string['pluginname'] = 'Aide à la lecture';
+$string['assistance'] = 'Aide à la lecture';
 $string['reading_help:addinstance'] = 'Add a new simple HTML block';
 $string['reading_help:myaddinstance'] = 'Add a new simple HTML block to the My Moodle page';
 $string['name'] = "Titre";
 $string['name_desc'] = "Titre du plugin qui va s'afficher dans l'entête bloc sinon c'est le nom du plugin qui va s'afficher. Attention si vous remplissez ce champ, votre plugin aura tout le temps le même nom quelle que soit la langue sélectionnée.";
-$string['page_parametres'] = 'Block Reading Help';
+$string['page_parametres'] = 'Bloc Aide à la lecture';
 $string['reading_help_text_escape'] = 'Appuyer sur [Esc] pour arrèter';
 $string['mask'] = 'Masque de texte';
 $string['synthesis'] = 'Synthèse vocale';

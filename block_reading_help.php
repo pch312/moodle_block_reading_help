@@ -72,18 +72,19 @@ class block_reading_help extends block_base {
         $this->content->text  = '<table style="width:100%">';
         $this->content->text  .= '<tr>';
         $this->content->text  .= '<td valign="center" style="text-align: center">';
-        $this->content->text  .= '    <button class="btn btn-primary" name="Synthesis" ';
+        $this->content->text  .= '    <button class="btn btn-primary" name="block_reading_help_Synthesis" ';
         $this->content->text  .= 'onclick="block_reading_help_speechsynthesis(this)">'.
             get_string('synthesis', 'block_reading_help').'</button>';
         $this->content->text  .= '</td>';
         $this->content->text  .= '<td valign="center" style="text-align: center">';
-        $this->content->text  .= '    <button class="btn btn-primary" name="MaskTexte" ';
+        $this->content->text  .= '    <button class="btn btn-primary" name="block_reading_help_MaskTexte" ';
         $this->content->text  .= 'onclick="block_reading_help_openmask()">'.get_string('mask', 'block_reading_help').'</button>';
         $this->content->text  .= '</td>';
         $this->content->text  .= '</tr>';
         $this->content->text  .= '<tr>';
         $this->content->text  .= '<td style="text-align: left" colspan="2">';
-        $this->content->text  .= '<i class="fa fa-question-circle" aria-hidden="true"></i> '.get_string('synthesis_help', 'block_reading_help');
+        $this->content->text  .= '<i class="fa fa-question-circle" aria-hidden="true"></i> '.
+            get_string('synthesis_help', 'block_reading_help');
         $this->content->text  .= '</td>';
         $this->content->text  .= '</tr>';
         $this->content->text  .= '</table>';
